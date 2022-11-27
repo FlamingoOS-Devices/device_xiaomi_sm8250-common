@@ -1,10 +1,45 @@
 [
-  {
-    "repository": "android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi"
-  },
-  {
-    "repository": "android_kernel_xiaomi_sm8250",
-    "target_path": "kernel/xiaomi/sm8250"
-  }
+    {
+		"remote": "github",
+		"repository": "AOSPA/android_hardware_xiaomi",
+		"target_path": "hardware/xiaomi",
+		"branch": "topaz"
+	},
+	{
+		"remote": "github",
+		"repository": "gmw-project/android_kernel_xiaomi_sm8250",
+		"target_path": "kernel/msm-4.19",
+		"branch": "msm-4.19-staging",
+		"clone-depth": "1"
+	},
+	{
+		"repository": "vendor_xiaomi_sm8250-common",
+		"target_path": "vendor/xiaomi/sm8250-common",
+		"branch": "A13",
+		"clone-depth": "1"
+	},
+	{
+		"remote": "github",
+		"repository": "AOSPA/android_hardware_qcom_audio",
+		"target_path": "vendor/qcom/opensource/audio-hal/primary-hal",
+		"branch": "topaz-865"
+	},
+	{
+		"remote": "github",
+		"repository": "AOSPA/android_hardware_qcom_display",
+		"target_path": "hardware/qcom/display",
+		"branch": "topaz-865"
+	},
+	{
+		"remote": "github",
+		"repository": "AOSPA/android_hardware_qcom_gps",
+		"target_path": "hardware/qcom/gps",
+		"branch": "topaz-865"
+	},
+	{
+		"remote": "github",
+		"repository": "AOSPA/android_hardware_qcom_media",
+		"target_path": "hardware/qcom/media",
+		"branch": "topaz-865"
+	}
 ]
