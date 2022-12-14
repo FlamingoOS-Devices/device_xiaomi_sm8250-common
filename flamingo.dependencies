@@ -32,14 +32,20 @@
 	},
 	{
 		"remote": "github",
-		"repository": "AOSPA/android_hardware_qcom_gps",
-		"target_path": "hardware/qcom/gps",
-		"branch": "topaz-865"
-	},
-	{
-		"remote": "github",
 		"repository": "AOSPA/android_hardware_qcom_media",
 		"target_path": "hardware/qcom/media",
 		"branch": "topaz-865"
-	}
+	},
+        {
+    		"remote"      : "github",
+    		"repository"  : "AOSPA/android_vendor_nxp_opensource_halimpl",
+    		"target_path" : "vendor/nxp/opensource/halimpl",
+    		"branch"      : "topaz-SN100X-legacy"
+        },
+  	{
+    		"remote"      : "github",
+    		"repository"  : "AOSPA/android_vendor_nxp_opensource_hidlimpl",
+    		"target_path" : "vendor/nxp/opensource/hidlimpl",
+    		"branch"      : "topaz-SN100X-legacy"
+  	}
 ]
