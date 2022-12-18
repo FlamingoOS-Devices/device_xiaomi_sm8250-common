@@ -387,6 +387,7 @@ PRODUCT_COPY_FILES += \
 TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     perf \
+    media \
     nq-nfc \
     wfd
 
