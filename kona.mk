@@ -389,7 +389,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     perf \
     media \
     nq-nfc \
-    wfd
+    wfd \
+    wlan
 
 # QMI
 PRODUCT_PACKAGES += \
@@ -487,7 +488,7 @@ PRODUCT_PACKAGES += \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
     vendor.qti.hardware.wifi.hostapd@1.2.vendor \
-    vendor.qti.hardware.wifi.supplicant@2.1.vendor \
+    vendor.qti.hardware.wifi.supplicant@2.2.vendor \
     WifiResCommon \
     wpa_supplicant \
     wpa_supplicant.conf
